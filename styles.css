@@ -251,3 +251,16 @@ footer {
   }
 }
 
+
+/* Remove extra top buffer on inner pages */
+.page {
+  padding-top: 56px !important;
+}
+
+/* Tighten header spacing after logo change */
+.site-header {
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+  min-height: auto !important;
+}
+
