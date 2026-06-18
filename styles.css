@@ -206,3 +206,14 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+
+.grid.three {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 950px) {
+  .grid.three {
+    grid-template-columns: 1fr;
+  }
+}
